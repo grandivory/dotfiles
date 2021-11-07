@@ -1,6 +1,6 @@
 " Use the Solarized Dark theme
 set background=dark
-colorscheme solarized
+colorscheme onedark
 let g:solarized_termtrans=1
 
 " Make Vim more useful
@@ -23,7 +23,6 @@ set encoding=utf-8 nobomb
 let mapleader=","
 " Don’t add empty newlines at the end of files
 set binary
-set noeol
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
@@ -76,10 +75,10 @@ set title
 " Show the (partial) command as it’s being typed
 set showcmd
 " Use relative line numbers
-if exists("&relativenumber")
-	set relativenumber
-	au BufReadPost * set relativenumber
-endif
+" if exists("&relativenumber")
+"	set relativenumber
+"	au BufReadPost * set relativenumber
+" endif
 " Start scrolling three lines before the horizontal window border
 set scrolloff=3
 
